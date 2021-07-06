@@ -1,0 +1,3 @@
+﻿  Bot.cpp
+c:\users\samsung\desktop\yahtzee\yahtzee\bot.cpp(46): warning C4715: "Bot::do_roll”: niewszystkie ścieżki kodu zwracają wartość
+  Yahtzee.vcxproj -> C:\Users\Samsung\Desktop\Yahtzee\Debug\Yahtzee.exe
