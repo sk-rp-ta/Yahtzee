@@ -10,7 +10,7 @@ int Bot::acc_Agression()
 	return Agression;
 }
 
-int Bot::place(vector<Player> players, vector<Bot> bots, int number_of_players)
+int Bot::place(vector<Player> &players, vector<Bot> &bots, int number_of_players)
 {
 	int _place = number_of_players;
 	for (auto i : players)
@@ -23,7 +23,7 @@ int Bot::place(vector<Player> players, vector<Bot> bots, int number_of_players)
 	}
 	return _place;
 }
-bool Bot::do_roll(vector<Player> players, vector<Bot> bots, int number_of_players)
+bool Bot::do_roll(vector<Player> &players, vector<Bot> &bots, int number_of_players)
 {
 	//this function decides if bot is rolling dices again
 	double risk = 0;  //actual number of points divided by maximum possible to get

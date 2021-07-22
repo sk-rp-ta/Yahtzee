@@ -4,7 +4,7 @@ Game::Game()
 {
 	//tile
 
-	cout << "Yahtzee" << endl;
+	this->title();
 
 	//inserting number of players
 	do
@@ -264,6 +264,39 @@ void Game::turn()
 	}
 	WhichTurn_pp();
 }
+void Game::title()
+{
+
+std::cout << R"(
+	____    ____  ___       __    __  .___________. ________   _______  _______ 
+	\   \  /   / /   \     |  |  |  | |           ||       /  |   ____||   ____|
+	 \   \/   / /  ^  \    |  |__|  | `---|  |----``---/  /   |  |__   |  |__   
+	  \_    _/ /  /_\  \   |   __   |     |  |        /  /    |   __|  |   __|  
+	    |  |  /  _____  \  |  |  |  |     |  |       /  /----.|  |____ |  |____ 
+	    |__| /__/     \__\ |__|  |__|     |__|      /________||_______||_______|
+  
+
+
+
+
+
+
+
+
+
+
+					   by sk_rp_ta      
+
+
+                                                                                                                                                    
+ 
+)" << endl;
+
+system("pause");
+system("cls");
+
+}
+
 void Game::finish()
 {
 	int num=0;
