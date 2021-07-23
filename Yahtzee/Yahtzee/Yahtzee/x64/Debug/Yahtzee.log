@@ -1,0 +1,7 @@
+﻿  Bot.cpp
+  Game.cpp
+  Player.cpp
+  Generowanie kodu...
+C:\Users\Milosz\source\repos\Yahtzee\Yahtzee\Yahtzee\Player.cpp(116): warning C4715: "Player::reroll”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\Milosz\source\repos\Yahtzee\Yahtzee\Yahtzee\Bot.cpp(43): warning C4715: "Bot::do_roll”: niewszystkie ścieżki kodu zwracają wartość
+  Yahtzee.vcxproj -> C:\Users\Milosz\source\repos\Yahtzee\Yahtzee\x64\Debug\Yahtzee.exe
